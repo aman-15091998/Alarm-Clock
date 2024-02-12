@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="alarm-clock display-flex">
+      <div class="current-time">
+        <h2 id="current-time">10:08 AM</h2>
+      </div>
+      <div class="set-alarm display-flex">
+        <div class="input-field">
+          <select name="" id="hr"></select>
+          <span>:</span>
+          <select name="" id="min"></select>
+          <span>:</span>
+          <select name="" id="sec"></select>
+          <select name="" id="ampm">
+            <option value="">PM/AM</option>
+            <option value="AM">AM</option>
+            <option value="PM">PM</option>
+          </select>
+        </div>
+        <button class="set-alarm-btn btn">Set Alarm</button>
+      </div>
+      <h3>Alarms</h3>
+      <div class="alarm-list display-flex">
+        <h3>No alarms set!</h3>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
